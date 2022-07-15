@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="icon" href="./IMG/cognizant image.png">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    
+</head>
+<body> 
+     <div class="main-content">
+         <h1>{{title}}</h1>
+         {{>header}}
+         <p>Created by {{name}}</p>
+         <form action="">
+             <input type="text" placeholder="lattitude">
+             <button>search</button>
+         </form>
+         <p id="message"></p>
+     </div>
+    
+    {{>footer}}
+    <script src="./JS/app.js"></script>
+</body>
+</html>
